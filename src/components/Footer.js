@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -29,7 +29,17 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="#"
+                href="https://x.com/amo_gilbert?s=09"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/gilbert-amo-73074922b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
