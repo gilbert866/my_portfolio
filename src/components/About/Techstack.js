@@ -10,7 +10,6 @@ import {
   DiGit,
   DiJava,
   DiMysql,
-  DiAndroid,
 } from "react-icons/di";
 import { SiRedis, SiFirebase, SiNextdotjs, SiPostgresql } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
@@ -59,9 +58,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiAndroid />
       </Col>
     </Row>
   );
